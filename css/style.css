@@ -1,0 +1,139 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.product__img{
+    width: 500px;
+}
+.product__btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #2c3947;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+#btn-menu{
+    background: #d3e3f5;
+    width: 70px;
+    height: 40px;
+    font-size: 17px;
+    border-color: #2c3947;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    border: 1px #2c3947 solid;
+    
+}
+.menu{
+    background: #d3e3f5d5;
+    width: 260px;
+    height: 130px;
+    border-radius: 0px 20px 20px 20px;
+    padding-top: 5px;
+    position: absolute;
+    display: none;
+    border: 1px #2c3947 solid;
+    z-index: 2;
+}
+.menu__list{
+    list-style: circle;
+   
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+}
+.is-active{
+    display: block;
+}
+.container__clock{
+    background: #d8dee6;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px #2c3947 double;
+    
+}
+.menu__link{
+    font-family: Montserrat;
+
+}
+.product__title{
+    font-family: Montserrat;
+}
+.product__price{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+.product__text{
+    font-family: Montserrat;
+}
+.itc-slider-items{
+    text-align: center;
+}
+.video{
+    position: relative;
+    
+}
+.video__content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.video__title{
+    margin-top: 300px;
+}
+.video__text{
+    color: white;
+    font-size: 25px;
+}
+.video__btn{
+    background: rgb(0, 0, 0, 0.5) ;
+    color: white;
+    width: 80px;
+    height: 30px;
+
+}
+.basket{
+    width: 100px;
+    height: 100px;
+    background: #d8dee6;
+    position: fixed;
+    top: 100;
+    bottom: 0;
+    left: 100;
+    right: 0;
+    margin: 40px;
+    border-radius: 10px;
+}
+.basket__img{
+    height: 80%;
+}
+.header__basket{
+    position: static;
+}
+.gds__title{
+    color: #2c3947;
+}
+.gds__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto;
+}
